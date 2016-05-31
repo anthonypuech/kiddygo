@@ -1,0 +1,10 @@
+<h1 class="text-center">All Recommmandations from mums and dads</h1>
+
+
+<% @products.each do |product| %>
+    <span><%=product.name %></span>
+    <span><%=product.address %></span>
+    <span><%=product.category %></span>
+    <p><%=product.description %></p>
+ <% end %>
+
