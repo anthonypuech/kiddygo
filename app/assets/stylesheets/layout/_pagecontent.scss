@@ -1,0 +1,70 @@
+body{
+  background: $gray;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color:  #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  color: #DD5555;
+  font-size: 22px;
+}
+
+h2{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+p{
+ text-align:left;
+}
+
+a{
+  color: $red;
+  text-decoration: none;
+}
+
+a:hover{
+  color: $red;
+  text-decoration: none;
+}
+
+#wrapper{
+  margin: 20px auto;
+  width: 95%;
+  padding:10px;
+  background:RGBA(250, 250, 250, 1.00);
+}
+
+#left-container {
+  float:left;
+  width: 20%;
+  background:$gray;
+}
+#right-container{
+  float:right;
+  width: 75%;
+}
+
+.clear{
+  clear:both;
+}
+
+.color-red{
+  color:$red;
+}
+
+.color-pink{
+  color:$pink;
+}

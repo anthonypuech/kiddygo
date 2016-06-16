@@ -1,0 +1,24 @@
+#banner {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url("http://unsplash.it/1000/400?random");
+  background-size: cover !important;
+  color: white;
+  text-align: center;
+  height: 60vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1 {
+  font-family: 'Dancing Script';
+  font-size: 50px;
+  font-height: 50px;
+  letter-spacing: 0px;
+  }
+  h2 {
+  font-family: 'helvetica light normal';
+  font-weight: light;
+  font-size: 21px;
+  font-height: 20px;
+  letter-spacing: 0px;
+  }
+}

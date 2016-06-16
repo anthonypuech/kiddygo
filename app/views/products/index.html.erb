@@ -1,10 +1,61 @@
-<h1 class="text-center">All Recommmandations from mums and dads</h1>
 
 
-<% @products.each do |product| %>
-    <span><%=product.name %></span>
-    <span><%=product.address %></span>
-    <span><%=product.category %></span>
-    <p><%=product.description %></p>
- <% end %>
+<!--Design of the banner-->
+<div id="banner">
+  <div>
+    <h1 class="" > Family Friendly Places to make the most with your children</h1>
+    <h2 class="" >By parents for parents, because we care</h2>
+  </div>
+</div>
+<div id="wrapper">
+  <div id="left-container">
+    <div class="catalogpreview">
+      <a href=""><div class="catalogpreviewheader catalogpreviewheader-format text-left">Eat</div></a>
+      <ul class="catalogpreviewitems">
+        <li class=""catalogpreviewitem>
+          <div class="catalogpreviewavatar"><a href=""><img src="http://placehold.it/30x30" alt="" class="avatar-bordered"></a>
+          </div>
+          <div class="catalogpreviewcontent">
+            <div class="catalogpreviewname"><a href="">La Fabbrica</a></div>
+            <div class="catalogpreviewuser">Added by Géraldine</div>
+          </div>
+        </li>
+        <li class=""catalogpreviewitem>
+          <div class="catalogpreviewavatar"><a href=""><img src="http://placehold.it/30x30" alt="" class="avatar-bordered"></a>
+          </div>
+          <div class="catalogpreviewcontent">
+            <div class="catalogpreviewname"><a href="">Le bon coin</a></div>
+            <div class="catalogpreviewuser">Added by Ioana</div>
+          </div>
+        </li>
+        <li class=""catalogpreviewitem>
+          <div class="catalogpreviewavatar"><a href=""><img src="http://placehold.it/30x30" alt="" class="avatar-bordered"></a>
+          </div>
+          <div class="catalogpreviewcontent">
+            <div class="catalogpreviewname"><a href="">La Tricotterie</a></div>
+            <div class="catalogpreviewuser">Added by Sandrine</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="catalogpreview">
+        <a href=""><div class="catalogpreviewheader catalogpreviewheader-format text-left">Play</div></a>
+    </div>
+  </div>
+  <div id="right-container">
+        <%= render "shared/cards" %>
+  </div>
+  <div class="clear"></div>
+</div>
+
+
+    <!--<ul>
+      <li><a href=""></a>Eat</li>
+      <li><a href=""></a>Play</li>
+      <li><a href=""></a>See</li>
+      <li><a href=""></a>Shop</li>
+      <li><a href=""></a>Pampers time</li>
+      <li><a href=""></a>Teach</li>
+    </ul>-->
+
 
